@@ -1,0 +1,34 @@
+                Node.js  -  Back end for bank server
+                ------------------------------------
+            
+            1. create folder for server
+            2. create package.json file: npm init
+            3. create entry point of server: index.js
+            4. install express: npm i express
+            5. Import express inside index.js
+            6. create server using express
+            7. set up port number for server app
+            8. to resolve api call
+                - server-app.http-method(path,call back function)
+            9. install cors (cross origin resourse shairing):npm i cors
+                - import cors in index.js
+                - Use cors, define the origin to share the data with server
+            10. parse json data
+
+            Integration of Node.js server and Mongo DB
+            -------------------------------------------
+            1. Install mongoose: npm i mongoose
+            2. create a folder for services then create a js file for definig db connection
+                 -Import mongoose in db.js file
+                 -using mongoose define connection string
+                 -create model for the project
+            Authorization
+
+            1.Install Json web Token - npm i jsonwebtoken
+            2.using jsonwebtoken
+                - generate token for successful login: sign()
+                    -
+            3.Middleware
+                - 2 types
+                    - application specific Middleware
+                    - router specific Middleware
